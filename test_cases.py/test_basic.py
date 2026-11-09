@@ -6,3 +6,12 @@ def test_addition():
     actual = a + b
 
     assert actual == expected
+
+def test_subtraction():
+    a = 30 
+    b = 10
+    expected = 20 
+
+    actual = a - b 
+    assert actual == expected
+    
